@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
       @Override public void start() {
         //开始播放
+        //设置进度条最大值
         mMusicProgressBar.setMax(mMediaPlayerUtils.getDuration());
       }
 
@@ -95,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
       }
 
       @Override public void onSeekBarProgress(int progress) {
+        Log.i(TAG,"progress：" + progress);
         //播放进度监听
         mMusicProgressBar.setProgress(progress);
       }

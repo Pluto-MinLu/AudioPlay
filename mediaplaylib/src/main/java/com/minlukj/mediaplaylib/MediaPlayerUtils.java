@@ -101,12 +101,10 @@ public class MediaPlayerUtils {
       //播放完成自动停止
       mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
         @Override public void onCompletion(MediaPlayer mediaPlayer) {
-          mediaPlayer.stop();
-          mHandler.removeCallbacks(mRunnable);
-          if (mediaPlayFunctionListener != null)
-            mediaPlayFunctionListener.stop();
           if (mMediaPlayInfoListener != null)
             mMediaPlayInfoListener.onCompletion(mediaPlayer);
+          stop();
+
         }
       });
       //准备完毕 自动播放
