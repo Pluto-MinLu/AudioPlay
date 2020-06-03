@@ -1,6 +1,6 @@
 # 使用**MediaPlayer**进行音频播放
 
-[![](https://jitpack.io/v/Chen-Xi-g/AudioPlay.svg)](https://jitpack.io/#Chen-Xi-g/AudioPlay)
+[！[]（https://www.jitpack.io/v/Pluto-MinLu/AudioPlay.svg）]（https://www.jitpack.io/#Pluto-MinLu/AudioPlay）
 
 ### 播放本地文件，raw，assets，网络资源效果。
 
@@ -28,7 +28,7 @@ allprojects {
 
  ```
 dependencies {
-       implementation 'com.github.Chen-Xi-g:AudioPlay:v1.0.0'
+       implementation 'com.github.Chen-Xi-g:AudioPlay:v1.1.0'
 }
 ```
 
