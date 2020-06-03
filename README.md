@@ -1,6 +1,6 @@
 # 使用**MediaPlayer**进行音频播放
 
-[！[]（https://www.jitpack.io/v/Pluto-MinLu/AudioPlay.svg）]（https://www.jitpack.io/#Pluto-MinLu/AudioPlay）
+[![](https://www.jitpack.io/v/Pluto-MinLu/AudioPlay.svg)](https://www.jitpack.io/#Pluto-MinLu/AudioPlay)
 
 ### 播放本地文件，raw，assets，网络资源效果。
 
