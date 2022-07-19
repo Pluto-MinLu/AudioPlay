@@ -1,4 +1,4 @@
-# 使用**MediaPlayer**进行音频播放
+# （停止维护）使用**MediaPlayer**进行音频播放
 
 [![](https://www.jitpack.io/v/Pluto-MinLu/AudioPlay.svg)](https://www.jitpack.io/#Pluto-MinLu/AudioPlay)
 
